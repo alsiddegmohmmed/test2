@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff;
+
+}
+
+body {
+
+	
+	
+}
+main {
+	background-image: url('/images/photo1459666644539a9.png'); /* Replace 'background.jpg' with your image file path */
+	background-size: cover; /* Ensures the image covers the entire viewport */
+	background-repeat: no-repeat; /* Prevents repeating the image */
+	height: 100vh;
+}
+header {
+	color: #ffff;
+}
+.topnav {
+	display: flex;
+  	justify-content: space-around;
+	  align-items: center;
+	  color: #ffff;
+}
+.navlist {
+	color: #ffff; 	
+}
+
+nav ul {
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-right: 200px;
+	list-style-type: none;
+	color: white;
+	
+}
+
+li {
+	text-decoration: none;
+	color: #ffff;
+	
+}
+ a {
+	
+}
+
+.second-div {
+	background-image: url('/images/peak.png'); /* Replace 'background.jpg' with your image file path */
+	background-size: cover; /* Ensures the image covers the entire viewport */
+	background-repeat: no-repeat; /* Prevents repeating the image */
+	height: 100vh;
+}
+
+.thirdnav {
+	background-image: url('/images/photo141702142391407.png'); /* Replace 'background.jpg' with your image file path */
+	background-size: cover; /* Ensures the image covers the entire viewport */
+	background-repeat: no-repeat; /* Prevents repeating the image */
+	height: 100vh;
+}
+.headword {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3%;
+	flex-direction: column;
+	font-size: -webkit-xxx-large;
+}
+
+h1 {
+	font-size: larger;
+}
+.headword-firsth1 {
+	color: rgb(57, 57, 68);
+
+}
+
+.headword-secondh1 {
+ color: rgb(8, 31, 51);
+}
