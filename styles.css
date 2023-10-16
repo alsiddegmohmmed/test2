@@ -32,7 +32,7 @@ header {
 	color: white;
 }
 .navlist {
-	 	
+	font-family:'Kanit', sans-serif;
 }
 
 nav ul {
@@ -99,7 +99,7 @@ h1 {
 }
 	
 .topnav2 a {
-	color: rgb(8, 31, 51);
+	color: #6B7D8D;
 }	
 
 
@@ -130,7 +130,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Transparent dark blue background */
+    background-color: rgba(60, 75, 99, 0.5); /* Transparent dark blue background */
 	padding: 13px;
 }
 
@@ -166,19 +166,77 @@ h1 {
 .topnavcontainer {
 	display: flex;
   	justify-content: space-around;
-	  align-items: center;
-	  background-color: rgb(112, 112, 185);
-	  height: 40px;
+	align-items: center;
+	background-color: rgb(112, 112, 185);
+	height: 40px;
 }
 
 
 .navlist2 a {
- color: blue;
+ color:#324364;
 }
 
-.fourth-div {
-	background-image: url('/images/photo141702142391407.png'); /* Replace 'background.jpg' with your image file path */
-	background-size: cover; /* Ensures the image covers the entire viewport */
-	background-repeat: no-repeat; /* Prevents repeating the image */
-	height: 100vh;
+.shcedule {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+    background-color: rgba(244, 247, 250, 0.5); /* Transparent dark blue background */
+	padding: 13px;
+	position: relative;
+    top: 20%;
+    width: 23%;
+    height: 250px;
+    left: 20%;
+}
+
+
+
+
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+	background-color: #3E4E6C;
+
+}
+.footer-logos {
+
+
+}
+
+.footer-list {
+
+
+}
+
+footer ul {
+	justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 200px;
+    list-style-type: none;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer li {
+	list-style-type: none;
+}
+
+footer p {
+	color: #61759E;
+}
+
+table {
+	display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 10px;
 }
