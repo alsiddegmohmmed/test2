@@ -2,7 +2,8 @@
 	margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #ffff;
+	font-family:'Nunito Sans';
+
 
 }
 
@@ -18,16 +19,20 @@ main {
 	height: 100vh;
 }
 header {
-	color: #ffff;
+	
 }
 .topnav {
 	display: flex;
   	justify-content: space-around;
 	  align-items: center;
-	  color: #ffff;
+	 
+}
+
+.topnav a {
+	color: white;
 }
 .navlist {
-	color: #ffff; 	
+	 	
 }
 
 nav ul {
@@ -37,13 +42,13 @@ nav ul {
 	gap: 10px;
 	margin-right: 200px;
 	list-style-type: none;
-	color: white;
+	
 	
 }
 
 li {
 	text-decoration: none;
-	color: #ffff;
+	
 	
 }
  a {
@@ -82,4 +87,98 @@ h1 {
 
 .headword-secondh1 {
  color: rgb(8, 31, 51);
+}
+
+.topnav2 {
+	
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+		 
+}
+	
+.topnav2 a {
+	color: rgb(8, 31, 51);
+}	
+
+
+.two-logos2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: fit-content;
+	padding: 30px;
+
+}
+
+.two-logos2 div {
+	/* display:flex;
+	justify-content: flex-start;
+	align-items: baseline; */
+	padding-right: 47%;
+}
+
+.two-logos2 p {
+	width: 50%;
+	margin-bottom: 15%;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent dark blue background */
+	padding: 13px;
+}
+
+.image-container img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin: 5px; /* Adjust the spacing between images */
+}
+
+
+.container {
+	display: flex;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 17%;
+    column-gap: 47px;
+    flex-wrap: wrap;
+}
+
+.container div {
+	display: flex;
+    align-content: stretch;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.container p {
+	width: 63%;
+}
+
+.topnavcontainer {
+	display: flex;
+  	justify-content: space-around;
+	  align-items: center;
+	  background-color: rgb(112, 112, 185);
+	  height: 40px;
+}
+
+
+.navlist2 a {
+ color: blue;
+}
+
+.fourth-div {
+	background-image: url('/images/photo141702142391407.png'); /* Replace 'background.jpg' with your image file path */
+	background-size: cover; /* Ensures the image covers the entire viewport */
+	background-repeat: no-repeat; /* Prevents repeating the image */
+	height: 100vh;
 }
