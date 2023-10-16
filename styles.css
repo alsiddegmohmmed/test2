@@ -13,7 +13,7 @@ body {
 	
 }
 main {
-	background-image: url('/images/photo1459666644539a9.png'); /* Replace 'background.jpg' with your image file path */
+	background-image: url('images/photo1459666644539a9.png'); /* Replace 'background.jpg' with your image file path */
 	background-size: cover; /* Ensures the image covers the entire viewport */
 	background-repeat: no-repeat; /* Prevents repeating the image */
 	height: 100vh;
